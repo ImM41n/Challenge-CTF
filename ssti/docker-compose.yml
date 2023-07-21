@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  chall:
+    build: .
+    container_name: chall-web
+    ports:
+      - "5000:5555"
+    restart: "always"
